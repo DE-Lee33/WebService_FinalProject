@@ -28,3 +28,20 @@ PLACE 메뉴를 통한 전국 여행지 탐색 <br />
 <h4>제작자</h4>
 
 이다은
+
+<h4>실행 화면</h4>
+
+<h5>메인 화면</h5>
+[Main](screenshots/main.png)
+
+<h5>여행 성향 테스트</h5>
+[Survey](screenshots/survey.png)
+
+<h5>추천 결과</h5>
+[Recommend](screenshots/recommend.png)
+
+<h5>로그인</h5>
+[Login](screenshots/login.png)
+
+<h5>장바구니</h5>
+[Cart](screenshots/cart.png)
