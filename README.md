@@ -1,73 +1,30 @@
-# React + TypeScript + Vite
+<h3>Travel Recommendation Web Service</h3>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h4>프로젝트 개요</h4>
 
-Currently, two official plugins are available:
+간단한 설문을 통해 사용자의 여행 성향을 분석하고, 그 결과에 맞는 국내 여행지를 추천하는 웹 서비스입니다. <br />
+여행지, 맛집, 액티비티 등 다양한 정보 속에서 무엇을 선택해야 할지 고민하는 사용자와 자신의 여행 스타일을 잘 모르는 사용자를 위해 제작되었습니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+<h4>주요 기능</h4>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+설문 기반 맞춤 여행지 추천 <br />
+트렌드 / 휴식 / 전통 테마별 여행지 분류 <br />
+추천받은 여행지 장바구니 저장 <br />
+PLACE 메뉴를 통한 전국 여행지 탐색 <br />
+회원가입 및 로그인 <br />
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+<h4>기술 스택</h4>
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+<h5>Front-end</h5>  React / TypeScripe / Vite / React Router / Redux Toolkit / Redux Persist / React Bootstrap Icons 
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+<h5>Back-end</h5>  Node.js / Express 
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+<h5>Database</h5>  MongoDB 
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+<h4>제작자</h4>
+
+이다은
