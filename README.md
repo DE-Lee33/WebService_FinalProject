@@ -31,17 +31,17 @@ PLACE 메뉴를 통한 전국 여행지 탐색 <br />
 
 <h4>실행 화면</h4>
 
-메인 화면
+메인 화면 <br />
 [Main](screenshots/main.png)
 
-여행 성향 테스트
+여행 성향 테스트 <br />
 [Survey](screenshots/survey.png)
 
-추천 결과
+추천 결과 <br />
 [Recommend](screenshots/recommend.png)
 
-로그인
+로그인 <br />
 [Login](screenshots/login.png)
 
-장바구니
+장바구니 <br />
 [Cart](screenshots/cart.png)
